@@ -16,14 +16,14 @@
               </head>
 
               <body>
-              <div class="container">
+              <div class="container card">
             <!-- Control the column width, and how they should appear on different devices -->
-            <div class="row">
-                <div class="col-sm-3">
+            <div class="row" style="margin-top: 20dp;">
+                <div class="col-sm-3" style="margin-bottom: 30px;">
               <div class="card">
               <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar3.png" alt="Card image">
               <div class="card-body">
-                <h4 class="card-title">John Doe</h4>
+                <h4 class="card-title">Alok Kumar</h4>
                 <p class="card-text">Android Developer</p>
                 <a href="#" class="btn btn-primary">Download Resume</a>
                 </div>
@@ -72,7 +72,13 @@
                 </div>
 
                   <div class="row">
-                        <div class="col-sm-3"></div>
+                        <div class="col-sm-3">
+                      <h4 id="resume_heading_hob" >Hobbies</h4>
+                      <ul>
+                          <li>Driving Bike during vacation</li>
+                           <li>Exploring about Share Market </li>
+                      </ul>
+                      </div>
 
                         <div class="col-sm-9">
                        <h4 id="resume_heading_eq" >SKILLS</h4>
@@ -81,41 +87,28 @@
                               <li><b>Mobile App Development : </b>Android - Activity , Intent , Fragment, firebase , RecyclerView,Layouts. </li>
                                 <li><b>Front-end : </b> HTML,CSS.</li>
                                 <li><b>Vcs Tool : </b>git.</li>
-
                         </ul>
                       </div>
-
                   </div>
 
 
                   <div class="row">
-
                   <div class="col-sm-3">
-                         <div class="row">
-                       <h4 id="resume_heading_hob" >Hobbies</h4>
-                      <ul>
-                          <li>Driving Bike during vacation</li>
-                           <li>Exploring about Share Market </li>
-                      </ul>
-                      </div>
-
-
-                       <div class="row">
-                       <h4 id="resume_heading_str" >Strengths</h4>
+                       
+                      <h4 id="resume_heading_str" >Strengths</h4>
                       <ul>
                           <li>Confident and Self-motivated</li>
                            <li>Highly dedicated towards my profession </li>
                       </ul>
-                      </div>
+                     
 
-                       <div class="row">
-                       <h4 id="resume_heading_pinf" >Personal Information</h4>
+ 
+                      <h4 id="resume_heading_pinf" >Personal Information</h4>
                       <ul>
                               <li><b>DOB : </b>20TH Dec 1997</li>
                               <li><b>Address : </b>Alpha 2 , Gr. Noida. </li>
                                 <li><b>Languages : </b>Hindi and English. </li>
                         </ul>
-                      </div>
                       </div>
 
                       <div class="col-sm-9">
@@ -159,20 +152,67 @@
                   </tr>
                 </tbody>
               </table>
+                          
+                    
+                         
+                <h4 id="resume_heading_traws" >Training and Workshops</h4>
+                <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Name of Organization</th>
+                    <th>Technology</th>
+                      <th>Duration</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Incapp , Greater Noida</td>
+                      <td>JAVA SE  
+                      </td>
+                      <td>1.5 Months</td>
+                  </tr>
+                    
+                     <tr>
+                    <td>Ducat, Noida</td>
+                      <td>Android  
+                      </td>
+                      <td>1.5 Months</td>
+                  </tr>
+                </tbody>
+              </table>
+                          
                       </div>
                   </div>
-
-                  </div>   
+    </div>   
+                
               </body>
 
 
                 <style type="text/css">
-
-                    #resume_heading_co{
+                    body{
+                        margin-top: 34px;
+                        padding-bottom: 34px;
+                    }
+               
+                    .container{
+                        padding-top: 25px;
+                        padding-bottom: 25px;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                    }
+                    
+                    #resume_heading_co,resume_heading_traws{
 
                         text-transform: uppercase;
                     }
 
+                   #resume_heading_traws{
+
+                        text-transform: uppercase;
+                    }
+                    
+                    
                     #resume_heading_eq{
 
                     }
